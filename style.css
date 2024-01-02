@@ -33,7 +33,6 @@
 }
 
 #scoreBoard {
-    height: 50px;
     display: flex;
     align-items: center;
     font-size: 2rem;
