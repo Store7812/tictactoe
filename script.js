@@ -131,7 +131,7 @@ for(let i=0; i < box.length; i++){
             }
         }else{
             console.log(`Game Over!!! ${winnerName} won the round ${round} plz Reset to play round ${round+1}.`)
-            scoreBoard.innerText = `Game Over!!! ${winnerName} won the round ${round} plz Reset to play round ${round+1}.`;
+            scoreBoard.innerText = `Game Over!!! ${winnerName} won the round ${round-1} plz Reset to play round ${round+1}.`;
         }
        
     })
