@@ -81,10 +81,10 @@ function winner() {
 
         if(a != undefined && a==b && b==c){
             console.log(`Round ${round} \nwinner is ${a}`);
+            scoreBoard.innerText = `Round ${round} winner is ${a}`;
             gameStatus = false;
             winnerName = a; 
             round++;
-            scoreBoard.innerText = `Round ${round} winner is ${a}`;
             return true;
         }
     }
