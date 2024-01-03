@@ -1,0 +1,41 @@
+#container {
+    width: 306px;
+    height: 305px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid 1px black;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+#reset {
+    margin: 2rem 0;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 2rem;
+    border: solid 1px black;
+}
+
+#reset:hover {
+    background-color: black;
+    color: white; 
+}
+
+#scoreBoard {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 1rem 0;
+}
